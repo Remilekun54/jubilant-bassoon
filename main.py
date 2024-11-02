@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 st.title(":brain:  Assigment-Solver !!!")
 
 
-model = ChatOllama(model="llama3.2:3b", base_url="http://localhost:11434/")
+model = ChatOllama(model="llama3.2:3b")
 
 system_message = SystemMessagePromptTemplate.from_template(
     '''
